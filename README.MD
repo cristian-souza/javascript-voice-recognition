@@ -1,56 +1,72 @@
-<h1 align="center">
-    <img alt="LOGO" height="90px" src="https://hermes.digitalinnovation.one/site/images/logo-footer.png" />
-    <br>
-    Api de reconhecimento de voz com javascript
-</h1>
-
-<h4 align="center">SUPER MARIO ENGLISH CHALLENGE</h4> 
-</br>
-  <p align="center">Jogo do super mario para responder o nome das cores em inglês usando a API de reconhecimento de voz</p>
-
-<div align="center">
-  <h2>🎁DOWNLOAD DOS RECURSOS USADOS EM AULA👇</h2>
-  <a href="#white_check_mark-Features">BAIXAR AGORA MEUS RECURSOS</a>
-</div>
+# Super Mario English Challenge 🍄⭐
 
 <p align="center">
-  <a href="#white_check_mark-Features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#globe_with_meridians-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#wrench-Como-utilizar">Como Utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-Licença">Licença</a>
+  <img src="./img/logo-dio.png" alt="Logo DIO" height="60">
 </p>
 
+O **Super Mario English Challenge** é um jogo interativo desenvolvido para ajudar no aprendizado de cores em inglês. Utilizando a **Web Speech API**, o jogador deve falar o nome da cor exibida na tela para ganhar moedas e avançar no jogo.
 
+---
 
-## :white_check_mark: Features
+## 🎮 Como Jogar
 
-* Possibilidade de responder em aúdio para se comunicar com o Browser
-* Layout construído com Flexbox
+1. O jogo sorteará o nome de uma cor em inglês (ex: "RED", "BLUE", "GREEN").
+2. Uma caixa com a cor correspondente aparecerá na tela.
+3. Clique no botão **"RESPONDER"**.
+4. Fale o nome da cor em voz alta (em inglês).
+5. **Acerto (+1 Moeda):** Você ouvirá o som de uma moeda do Mario e sua pontuação aumentará.
+6. **Erro (-1 Moeda):** Você ouvirá o som de erro e perderá uma moeda.
 
-## :globe_with_meridians: Tecnologias
+---
 
-Esse projeto foi desenvolvido usando as seguintes tecnologias:
+## ✨ Features
 
--  [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
--  [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
--  [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
+- **Reconhecimento de Voz:** Integração com a API de reconhecimento de voz do navegador para capturar a fala do usuário.
+- **Feedback Sonoro:** Efeitos sonoros clássicos do Super Mario para acertos e erros.
+- **Interface Temática:** Design inspirado no universo do Super Mario Bros.
+- **Responsividade:** Layout construído com Flexbox para melhor adaptação.
 
-## :wrench: Como Utilizar
+---
 
-Clone essa aplicação utilizando o [Git](https://git-scm.com) e utilizando os seguintes comandos:
+## 🛠️ Tecnologias Utilizadas
 
-```bash
-# Clonando esse repositório
-$ git clone https://github.com/felipeAguiarCode/jogo-mario.git
-```
-Em seguida execute o arquivo 'index.html' no seu navegador
+- **HTML5:** Estruturação da página.
+- **CSS3:** Estilização e layout (Flexbox).
+- **JavaScript (Vanilla):** Lógica do jogo e manipulação do DOM.
+- **Web Speech API:** Tecnologia para o reconhecimento de voz em tempo real.
 
+---
 
-## :memo: Licença 
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/react-native-design-code/blob/master/LICENSE) for more information.
+## 🚀 Como Executar o Projeto
 
-## Autor
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/javascript-voice-recognition.git
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd javascript-voice-recognition
+   ```
+3. Abra o arquivo `index.html` em um navegador moderno (Recomendado: **Google Chrome** ou **Microsoft Edge**, que possuem melhor suporte para a Web Speech API).
 
-| [<img src="https://avatars3.githubusercontent.com/u/37452836?s=96&v=4"><br><sub>Felipe Aguiar</sub>](https://github.com/felipeAguiarCode) |
-| :---: |
-|[Linkedin](www.linkedin.com/in/felipe-aguiar-047)|
+> **Nota:** É necessário permitir o acesso ao microfone quando solicitado pelo navegador.
+
+---
+
+## 📸 Protótipo
+
+Confira o design planejado para o projeto:
+
+<p align="center">
+  <img src="./mock/_prototipo.jpg" alt="Protótipo do Jogo" width="600">
+</p>
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+Desenvolvido com ❤️ como parte de um desafio de aprendizado.
